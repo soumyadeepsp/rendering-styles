@@ -14,7 +14,7 @@ function App() {
 
   const incrementCounter2 = useCallback(() => {
     setCounter2(counter2 + 1);
-  }, [cou]);
+  }, [counter2]);
 
   return (
     <div className="App">
